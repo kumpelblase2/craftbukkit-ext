@@ -17,12 +17,12 @@ latter side are also welcome, but don't have priority.
 ## Usage
 
 To use this library, first include it in your gradle/maven dependencies using the appropriate methods as shown below. Please replace
-`${minecraftVersion}` with the desired minecraft version and `${release}` with the release version of the library.
+`${minecraftVersion}` with the desired minecraft version and `${release}` with the release version of the library. Make sure you have the maven repository `https://dl.bintray.com/kumpelblase2/Libraries` added!
 
 ```xml
 <dependency>
 	<groupId>de.eternalwings.bukkit</group>
-	<artifactId>craftbukkit-ext</artifactId>
+	<artifactId>ext</artifactId>
 	<version>${minecraftVersion}-${release}</version>
 </dependency>
 ```
