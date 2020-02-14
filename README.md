@@ -28,7 +28,7 @@ To use this library, first include it in your gradle/maven dependencies using th
 ```
 
 ```groovy
-implementation "de.eternalwings.bukkit:craftbukkit-ext:${minecraftVersion}-${release}"
+implementation "de.eternalwings.bukkit:ext:${minecraftVersion}-${release}"
 ```
 
 The version scheme is chosen because by the very nature of this library it is mostly connected to the minecraft version. However,
